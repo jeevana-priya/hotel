@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering Menu - Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        /* Sidebar styling */
+        .sidebar {
+            background-color: #f9f4e8;
+            padding: 20px;
+            border-radius: 10px;
+            min-height: 400px;
+        }
+        .sidebar h2 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+        .sidebar ul li {
+            margin-bottom: 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+        .sidebar ul li a:hover {
+            color: #ff6347;
+        }
+        /* Main menu content styling */
+        .menu-content {
+            padding: 20px;
+        }
+        .menu-content h2 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .menu-content ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+        .menu-content ul li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        /* Form styling */
+        .special-request-form {
+            background-color: #f9f4e8;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .special-request-form h4 {
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="logo.png" alt="logo" class="logo">
+        </div>
+        <div class="navbar-right">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="cateringmenu.html">Catering Menu</a>
+          <a href="orderonline.html">Order Online</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3">
+                <div class="sidebar">
+                    <h2>Catering Menu</h2>
+                    <ul>
+                        <li><a href="#">Veg Meals</a></li>
+                        <li><a href="#">Non-veg meals</a></li>
+                        <li><a href="#">Chicken Pakoda</a></li>
+                        <li><a href="#">Fish Fry</a></li>
+                        <li><a href="#">Cabbage Fry</a></li>
+                        <li><a href="#">Bagara Rice</a></li>
+                        <li><a href="#">Mixed Vegetable Rice</a></li>
+                        <li><a href="#">Biryani</a></li>
+                        <li><a href="#">Non-veg Pulao</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Mango Lassi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Menu Content -->
+            <div class="col-md-6">
+                <div class="menu-content">
+                    <!-- Content Section -->
+                    <h1>Catering Menu</h1>
+                    <p>We provide customizable catering options tailored to meet your specific needs. Whether it’s a wedding, corporate event, or family gathering, we can help you design a menu that’s just right for your event.</p>
+
+                    <!-- Catering Menu Items -->
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <h4>Buffet Catering</h4>
+                            <p>A wide variety of dishes served buffet style, perfect for large gatherings.</p>
+                        </li>
+                        <li class="menu-item">
+                            <h4>Boxed Meals</h4>
+                            <p>Individually packaged meals, ideal for corporate events or picnics.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Special Request Form -->
+            <div class="col-md-3">
+                <div class="google-form-container">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9MF5gDdbLalDTNWSzvCztGuLkYrJacN3KejA5z148yrIzSQ/viewform?embedded=true" width="400" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
